@@ -1,0 +1,27 @@
+{
+  "name": "notion-desktop",
+  "version": "1.0.0",
+  "description": "Notion for desktop",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder",
+    "clear": "rm -r node_modules; rm -r dist"
+  },
+  "build": {
+    "linux": {
+      "asar": true,
+      "target": "rpm",
+      "icon": "assets",
+      "category": "Utility"
+    }
+  },
+  "keywords": [],
+  "author": "Mohamed-elg <mohamed.elguermat9@gmail.com>",
+  "license": "ISC",
+  "homepage": "https://github.com/Mohamed-elg",
+  "devDependencies": {
+    "electron": "^22.0.0",
+    "electron-builder": "^22.10.3"
+  }
+}
