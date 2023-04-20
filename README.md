@@ -1,10 +1,10 @@
 # Notion desktop
 
-### An rpm of [Notion](https://notion.so)
+### Rpm de [Notion](https://notion.so)
 
 ### Installation
 
-- `npm un build`
+- `npm run build`
 - `rpm -i`
 
 <br>
