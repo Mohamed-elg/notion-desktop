@@ -1,6 +1,6 @@
 # Notion desktop
 
-### Rpm de [Notion](https://notion.so) pour Fedora
+### Rpm of [Notion](https://notion.so) for Fedora based on electron
 
 ### Installation
 
